@@ -16,7 +16,7 @@ nav{
 }
 
 .navbar{
-  padding: 8px 10%;
+  padding: 9px 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,7 +72,7 @@ nav ul li a:hover{
 
 .header section{
   color: #EDEFEE;
-  padding: 8px 12%;
+  padding: 9px 12%;
   position: relative;
 }
 
@@ -117,7 +117,44 @@ button{
   border-radius: 20px;
 }
 
+form{
+  padding: 9px 12%;
+}
 
+.confirm{
+  padding: 9px 12%;
+}
+
+.formField{
+  padding: 50px 20px;
+}
+
+input, label{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#book-date, #book-time, #book-guests, #book-occasion{
+  background: #BDBDBD43;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.btnreceive input{
+  padding: 12px 16px;
+  margin-top: 20px;
+  background: #495E57;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.confirm span{
+  color: blueviolet;
+}
 
 @media screen and (max-width: 768px){
   .menu_icon {
@@ -137,7 +174,7 @@ button{
 
   .navbar{
     background:#ffffff;
-    padding: 10px 8%;
+    padding: 7px 3px;
   }
 
   nav ul li a{
@@ -150,6 +187,10 @@ button{
 
   .banner-img{
     display: none;
+  }
+
+  form, .confirm{
+    padding: 7px 3px;
   }
 
   .header section{
