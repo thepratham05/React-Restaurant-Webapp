@@ -212,6 +212,35 @@ input, label{
   font-weight: 600;
 }
 
+footer section{
+  padding: 9px 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.company-info img{
+  margin-top: 12px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.company-info p{
+  width: 320px;
+}
+
+footer h3{
+  font-size: 18px;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer ul li{
+  padding: 8px 0;
+}
+
 @media screen and (max-width: 768px){
   .menu_icon {
     display: block;
@@ -262,6 +291,16 @@ input, label{
   }
 
   .menu-items{
+    width: 100%;
+  }
+
+  footer section{
+    padding: 7px 3px;
+    flex-direction: column;
+
+  }
+
+  .company-info p{
     width: 100%;
   }
 }
