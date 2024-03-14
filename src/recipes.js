@@ -9,7 +9,7 @@ const recipes = [
       price: 12.99,
       image: greek,
       description:
-        "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style fota cheese, garnished with crunchy garlic and rosemary croutons",
+        "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style fota cheese, garnished with crunchy garlic.",
     },
     {
       id: 2,

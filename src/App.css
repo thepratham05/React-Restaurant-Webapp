@@ -158,7 +158,7 @@ input, label{
 
 .menu-container{
   margin: 100px auto;
-  padding: 10px 13%;
+  padding: 9px 12%;
 }
 
 .menu-container h2{
@@ -195,19 +195,17 @@ input, label{
 
 .menu-content{
   padding: 5px 15px;
-}
-
-.menu-content{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 .heading{
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  /* justify-content: space-between; */
 }
 
 .orderbtn{
+  display: block;
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
